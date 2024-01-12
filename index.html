@@ -1,0 +1,40 @@
+<!CODETYPE html>
+<head>
+<h1 id="title" >Instagram User Survey Form</h1>
+<p id="description" >Thank you for taking the time to help us improve the platform<p>
+  </head>
+  <body>
+  <form id="survey-form"/>
+  <label id="name-label" for="name" type="text" >Name
+    <input id="name" required placeholder="Enter your name" ><label>
+  <label id="email-label" for="email" >Email
+    <input id="email" required type="email" placeholder="Enter your Email" ><label>
+      <label id="Id-label" for="Id" type="text" >Instagram ID
+    <input id="Id" required placeholder="Enter your Intagram ID" ><label>
+   <label id="number-label" for="number" >Age (optional)
+    <input id="number" required type="number" min="15" max="99" placeholder="Age" ><label>
+      
+      <p>Would you recommend Instagram to a friend?</p>
+      <select id="dropdown">
+<option >Select one option</option>
+<option id="definetly-maybe"  >Definetly</option>
+<option id="definetly-maybe"  >Maybe</option>
+<option id="definetly-maybe"  >No</option>
+</select>
+<p>What is your favourite interaction on Instagram?</p>
+<input type="radio" name="fovourites" value="post" >Posting Pictures
+<input type="radio" name="fovourites" value="stories" >Creating stories
+<input type="radio" name="fovourites" value="comments" >Commenting
+<input type="radio" name="fovourites" value="likes" >Liking
+<input type="radio" name="fovourites" value="follow" >Following
+<p>What would you like to see improved?</p>
+<input type="checkbox" value="lengh-videos" >Longer Videos
+<input type="checkbox" value="search" >Search Engine
+<input type="checkbox" value="suggestions" >Suggestions
+<input type="checkbox" value="files-chat" >Files Transfer in Chat
+<input type="checkbox" value="ads" >Amount of Ads
+<input type="checkbox" value="background" >Background Style
+<p>Any coments or suggestions?</p>
+<textarea placeholder="Enter your comment here..." ></textarea>
+  <button id="submit" >Submit</button>
+  </body>
